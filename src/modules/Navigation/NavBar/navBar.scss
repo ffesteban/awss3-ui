@@ -1,0 +1,122 @@
+// @import '../../../style/colors.scss';
+
+.navbar {
+  .navbar-brand {
+    width: 150px;
+    img {
+      width: 100%;
+    }
+  }
+  .navbar-nav {
+    .nav-link {
+      width: 65px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+// .nav-bar-logo {
+//   height: 52px;
+//   width: auto;
+// }
+// @media (min-width: 1024px) {
+//   .nav-bar-logo {
+//     height: 65px;
+//   }
+// }
+
+// .navbar{
+//   max-height: 78px;
+//   background-color:#00353b !important
+// }
+// .navbar-light .navbar-nav .nav-link:hover {
+//   color: whitesmoke;
+// }
+
+// .nav-item {
+//   font-size: 15px;
+// }
+// .navbar-light .navbar-nav .nav-link {
+//   color: rgba(255, 255, 255, .6);
+
+// }
+// .navbar-light .navbar-nav .nav-link.active {
+//   color: $gm-blue;
+// }
+// .navbar{
+//   background-color:#00353B !important
+// }
+
+// .ml-auto {
+//   max-height: calc(100vh - 78px);
+//   overflow-y: auto;
+// }
+
+// .navbar-collapse.show:first-of-type, .collapsing:first-of-type {
+//   background-color: #00353B;
+//   margin: 5px -16px;
+//   z-index: 99999;  
+// }
+
+// .mobile-container {
+//   .nav-item {
+//     line-height: 50px;
+//   }
+
+//   a {
+//     padding:  0 20px;
+//   }
+
+//   .mobile-navitem {
+//     .collapse.show, .collapse, .collapsing {
+//       background-color: rgba(1, 33, 36, 0.55);
+//       padding-left: 40px;
+//     }
+//     .menu-item-composed {
+//       position: relative;
+//       line-height: 50px;
+
+//       a {
+//         display: inline;
+//         padding: 15px 20px;
+//       }
+
+//       button {
+//         position: absolute;
+//         right: 30px;
+//         top: 8px;
+//         background: none;
+
+//         i {
+//           color: rgba(255, 255, 255, 0.6);
+//         }
+
+        
+//       }
+
+//       .btn:focus, .btn.focus {
+//         box-shadow: none;
+//       }
+
+//       .btn-primary:not(:disabled):not(.disabled):active, 
+//       .btn-primary:not(:disabled):not(.disabled).active, 
+//       .show > .btn-primary.dropdown-toggle {
+//         background-color: transparent;
+//         box-shadow: none;
+//       }
+//     }
+//   }  
+// }
+
+// .fa-chevron-right {
+//   transition: transform .4s;
+// }
+
+// .rotate {
+//   transition: all .3s linear;
+// }
+// .rotate.down {
+//   transform:rotate(90deg);
+// }

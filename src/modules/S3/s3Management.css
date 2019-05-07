@@ -1,0 +1,28 @@
+.s3-management-container {
+  text-align: center; }
+  .s3-management-container .header {
+    background-color: #222;
+    color: white;
+    display: flex;
+    height: 100%;
+    padding-top: 35px;
+    padding-bottom: 35px; }
+    .s3-management-container .header .title {
+      font-size: 3em;
+      padding-left: 100px;
+      padding-right: 50px;
+      white-space: nowrap; }
+    .s3-management-container .header .loader {
+      position: sticky;
+      right: 100px; }
+  .s3-management-container .content {
+    height: 100%; }
+    .s3-management-container .content .table {
+      margin-bottom: 0px; }
+      .s3-management-container .content .table img {
+        height: 80px;
+        width: 80px; }
+      .s3-management-container .content .table .row-icon {
+        cursor: pointer;
+        height: 30px;
+        width: 30px; }

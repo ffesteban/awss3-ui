@@ -1,0 +1,15 @@
+.file-dropzone-container {
+  width: 100%;
+  section {
+    border-style: dotted;
+    height: 70px;
+    position: absolute;
+    width: 250px;
+    div {
+      height: 100%;
+      p {
+        padding-top: 20px;
+      }
+    }
+  }
+}

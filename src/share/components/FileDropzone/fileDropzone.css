@@ -1,0 +1,11 @@
+.file-dropzone-container {
+  width: 100%; }
+  .file-dropzone-container section {
+    border-style: dotted;
+    height: 70px;
+    position: absolute;
+    width: 250px; }
+    .file-dropzone-container section div {
+      height: 100%; }
+      .file-dropzone-container section div p {
+        padding-top: 20px; }

@@ -1,0 +1,16 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+$grid-breakpoints: (
+  xs: 0px,
+  sm: 600px,
+  md: 800px,
+  lg: 1200px,
+  xl: 1550px
+);
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import'./app.scss', './colors.scss', '../../node_modules/react-fab/dist/main.scss';
+
+html, body { overflow-x: hidden; }
+#root{
+    font-family: 'Libre Franklin', sans-serif;
+}

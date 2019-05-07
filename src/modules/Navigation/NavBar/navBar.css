@@ -1,0 +1,9 @@
+.navbar .navbar-brand {
+  width: 150px; }
+  .navbar .navbar-brand img {
+    width: 100%; }
+
+.navbar .navbar-nav .nav-link {
+  width: 65px; }
+  .navbar .navbar-nav .nav-link img {
+    width: 100%; }

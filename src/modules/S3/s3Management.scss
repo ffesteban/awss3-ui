@@ -1,0 +1,36 @@
+.s3-management-container{
+  text-align: center;
+  .header {
+    background-color: #222;
+    color: white;
+    display: flex;
+    height: 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    .title {
+      font-size: 3em;
+      padding-left: 100px;
+      padding-right: 50px;
+      white-space: nowrap;
+    }
+    .loader {
+      position: sticky;
+      right: 100px;
+    }
+  }
+  .content {
+    height: 100%;
+    .table {
+      margin-bottom: 0px;
+      img {
+        height: 80px;
+        width: 80px;
+      }
+      .row-icon {
+        cursor: pointer;
+        height: 30px;
+        width: 30px;
+      }
+    }
+  }
+}
